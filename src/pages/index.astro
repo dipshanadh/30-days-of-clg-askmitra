@@ -1,0 +1,71 @@
+---
+import Layout from "../layouts/Layout.astro"
+
+const posts = await Astro.glob("./blogs/*.md")
+---
+
+<Layout
+	title="Home"
+	description="30 days of self guided learning - Deep dive into JavaScript - Dipshan Adhikari"
+>
+	<h1>30 Days of CLG Askmitra</h1>
+
+	<p>
+		30 days of self guided learning - Deep dive into JavaScript. Gain an
+		understanding of scope, callbacks, higher-order functions, closure,
+		asynchronous and object-oriented JavaScript!
+	</p>
+
+	<h2>My Journey</h2>
+
+	<ol>
+		{
+			posts.map(post => (
+				<li>
+					<h3>{post.frontmatter.title}</h3>
+					<ul>
+						{post
+							.getHeadings()
+							.filter(heading => heading.depth > 1)
+							.map(heading => (
+								<li>
+									<a href={`${post.url}#${heading.slug}`}>
+										{heading.text}
+									</a>
+								</li>
+							))}
+					</ul>
+				</li>
+			))
+		}
+	</ol>
+
+	<!-- 
+
+    1. ### Types
+    
+-   [Primitive types](/blogs/day1-types#primitive-types)
+-   [Coercion](#)
+-   [Equality](#)
+
+2. ### Scope
+
+-   [Nested Scope](#)
+-   [Hoisting](#)
+-   [Closure](#)
+-   [Execution context](#)
+
+3. ### Objects
+
+-   [the _this_ keyword](#)
+-   [Class](#)
+-   [Prototype](#)
+
+4. ### Asynchronous JavaScript
+
+-   [Promises](#)
+-   [Callbacks](#)
+-   [Async/Await](#)
+
+-->
+</Layout>

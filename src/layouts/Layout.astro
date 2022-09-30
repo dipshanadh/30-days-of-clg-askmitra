@@ -1,0 +1,41 @@
+---
+import Header from "../components/Header.astro"
+
+const { frontmatter } = Astro.props
+const { title, description } = frontmatter || Astro.props
+const socialImageURL = new URL("/images/preview.png", Astro.url)
+---
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title>{title} | 30 days of CLG Askmitra | Dipshan Adhikari</title>
+
+		<!-- Meta Tags -->
+		<meta name="generator" content={Astro.generator} />
+		<meta name="author" content="Dipshan Adhikari" />
+		<meta name="description" content={description} />
+
+		<!-- Open Graph -->
+		<meta property="og:type" content="article" />
+		<meta
+			property="og:title"
+			content={title + "| 30 days of CLG Askmitra | Dipshan Adhikari"}
+		/>
+		<meta property="og:url" content={Astro.url} />
+		<meta property="og:image" content={socialImageURL} />
+	</head>
+	<body class="bg-background text-text text-lg">
+		<Header />
+		<main class="px-5 py-16">
+			<article
+				class="prose mx-auto md:prose-lg lg:prose-xl prose-invert max-w-screen-lg prose-a:text-secondary"
+			>
+				<slot />
+			</article>
+		</main>
+	</body>
+</html>
