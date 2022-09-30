@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Layout.astro
-title: Day 1 - Types
-description: Day 1 - Types | 30 days of self guided learning | Dipshan Adhikari
+title: Day 1 - Data Types in JavaScript
+description: Day 1 - Data Types in JavaScript | 30 days of self guided learning | Dipshan Adhikari
 ---
 
-# Day 1 - 30 days of self guided learning
+# Day 1 - Data types in JavaScript
 
 ## Primitive types
 
@@ -26,4 +26,22 @@ some stuff
 
 some stuff
 
-## type coercion
+## Coercion
+
+some stuff
+
+some stuff
+
+some stuff
+
+some stuff
+
+some stuff
+
+some stuff
+
+some stuff
+
+some stuff
+
+## Equality
