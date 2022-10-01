@@ -117,3 +117,5 @@ typeof BigInt(1) === "bigint" // true
 **Thing to remember:**
 
 > A BigInt value cannot be used with methods in the built-in `Math` object and cannot be mixed with a Number value in operations; they must be `coerced` to the same type. The precision of a BigInt value may be lost when it is `coerced` to a Number value.
+
+This much for today guys. We will look into equalities, abstract operations and more about coercions & boxing tomorrow.

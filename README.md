@@ -1,49 +1,27 @@
-# Welcome to [Astro](https://astro.build)
+# 30 Days of CLG Askmitra
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+Hi, I am Dipshan & I have decided to start 30 Days of CLG Askmitra to deep dive into JavaScript and gain an understanding of scope, callbacks, higher-order functions, closure, thread & call stack, execution context, task queue, asynchronous and object-oriented JavaScript!
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## What is CLG ?
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+100 days of self-guided learning is an initiative by ITSNP ORG to help tech enthusiasts connect and learn new skills daily for 100 days for at least an hour a day while connecting and creating projects together with future tech innovators. The main goal of CLG is to make peer-inspiration more efficient, We believe everyone can guide, and inspire another for good, The learning can be any new skills like coding, personality development, designing, etc., or even enhancing the existing skills you have. The sole goal here is to learn and to form the habit of learning while making your commitment public to make it more consistent. This learning pattern will help you in three main aspects: Consistency, Peer-Inspiration, and Development.
 
+## Code of Conduct
 
-## 🚀 Project Structure
+-   Every day, we will learn something new and share it with our Facebook community.
+-   During the learning phase, incase of the arrival of the problem we will not hesitate to to ask the problems in askmitra.com.
+-   We should be willing to help and grow together as a team.
+-   We vow to be consistent, to inspire and motivate others, and to keep the development cycle continuing.
 
-Inside of your Astro project, you'll see the following folders and files:
+Note : If an individual takes more than three days off without good reason, s/he will be removed from the CLG program.
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Links to some of the resources I used:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+-   [Deep JavaScript Foundations](https://frontendmasters.com/courses/deep-javascript-v3/)
+-   [JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/)
+-   [JavaScript: Under The Hood](https://www.youtube.com/playlist?list=PLillGF-Rfqbars4vKNtpcWVDUpVOVTlgB)
+-   [You Don't Know JS Yet](https://github.com/getify/You-Dont-Know-JS)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+If you’re interested start here: https://clg.askmitra.com
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `npm run astro --help` | Get help using the Astro CLI                       |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Thank you.
