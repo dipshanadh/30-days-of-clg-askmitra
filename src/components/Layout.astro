@@ -2,8 +2,10 @@
 import Header from "../components/Header.astro"
 
 const { frontmatter } = Astro.props
-const { title, description } = frontmatter || Astro.props
-const socialImageURL = new URL("/images/preview.png", Astro.url)
+let { title, description } = frontmatter || Astro.props
+title += " | 30 days of CLG Askmitra | Dipshan Adhikari"
+
+const socialImageURL = new URL("/preview.PNG", Astro.url)
 ---
 
 <!DOCTYPE html>
@@ -12,7 +14,7 @@ const socialImageURL = new URL("/images/preview.png", Astro.url)
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<title>{title} | 30 days of CLG Askmitra | Dipshan Adhikari</title>
+		<title>{title}</title>
 
 		<!-- Meta Tags -->
 		<meta name="generator" content={Astro.generator} />
@@ -21,18 +23,22 @@ const socialImageURL = new URL("/images/preview.png", Astro.url)
 
 		<!-- Open Graph -->
 		<meta property="og:type" content="article" />
-		<meta
-			property="og:title"
-			content={title + "| 30 days of CLG Askmitra | Dipshan Adhikari"}
-		/>
+		<meta property="og:title" content={title} />
 		<meta property="og:url" content={Astro.url} />
 		<meta property="og:image" content={socialImageURL} />
+
+		<!-- Twitter summary card -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:site" content="@dipshanadh" />
+		<meta name="twitter:image" content={socialImageURL} />
 	</head>
 	<body class="bg-background text-text text-lg">
 		<Header />
 		<main class="px-5 py-16">
 			<article
-				class="prose mx-auto md:prose-lg lg:prose-xl prose-invert max-w-screen-lg prose-a:text-secondary"
+				class="prose mx-auto md:prose-lg lg:prose-xl prose-invert max-w-screen-lg prose-a:text-secondary prose-blockquote:border-l-primary prose-blockquote:bg-muted prose-blockquote:py-[1px] prose-code:text-primary prose-code:font-normal prose-img:rounded-sm"
 			>
 				<slot />
 			</article>

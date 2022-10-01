@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Layout.astro
+layout: ../components/Layout.astro
 title: What is CLG ?
 description: Connect, Learn & Grow - 100 days* of self guided learning. The starting point of your journey to make progress.
 ---
