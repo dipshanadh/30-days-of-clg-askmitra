@@ -1,6 +1,6 @@
 ---
 layout: ../../components/Layout.astro
-title: Day 2 - Coercion and Abstract operations
+title: Day 2 - Coercion and Abstract Operations
 description: This is the second day of 30 Days of CLG Askmitra. Yesterday, I had talked about types and a little bit about coercion. Today, I am going to dive into type coercion and abstract operations.
 ---
 
