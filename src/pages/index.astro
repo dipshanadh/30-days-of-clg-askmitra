@@ -22,7 +22,14 @@ const posts = await Astro.glob("./blogs/*.md")
 		{
 			posts.map(post => (
 				<li>
-					<h3>{post.frontmatter.title}</h3>
+					<h3 class="not-prose">
+						<a
+							href={post.url}
+							class="hover:underline underline-offset-4"
+						>
+							{post.frontmatter.title}
+						</a>
+					</h3>
 					<ul>
 						{post
 							.getHeadings()
