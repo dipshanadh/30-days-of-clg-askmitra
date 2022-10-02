@@ -7,7 +7,7 @@ description: Hi, I am Dipshan Adhikari. I am currently studying in class 9 and l
 # About
 
 Hi, I am **Dipshan Adhikari**. I am currently studying in class 9 and learning _**MERN**_ stack.
-I have decided to start **30 Days of CLG Askmitra** to deep dive into **JavaScript** and gain an understanding of types, equality, scope, callbacks, higher-order functions, closure, thread & call stack, execution context, task queue, asynchronous and object-oriented JavaScript!
+I have decided to start **30 Days of CLG Askmitra** to deep dive into **JavaScript** and go under the hood of some of the most important aspects of JavaScript!
 
 I really love JavaScript and it was my first programming language. JavaScript is versatile and awsome, it is equally weird as well. Most of the developers, specially **JavaScript develpers** are **_guessers_** ! They just guess things and hope that it will work. So do I. And the main reason behind that is we don't know what actually the code is doing, whats happening there.
 
