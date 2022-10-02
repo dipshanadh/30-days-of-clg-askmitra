@@ -5,7 +5,7 @@ const { frontmatter } = Astro.props
 let { title, description } = frontmatter || Astro.props
 title += " | 30 days of CLG Askmitra | Dipshan Adhikari"
 
-const socialImageURL = new URL("/preview.PNG", Astro.url)
+const socialImageURL = new URL("/images/preview.PNG", Astro.url)
 ---
 
 <!DOCTYPE html>
@@ -38,7 +38,7 @@ const socialImageURL = new URL("/preview.PNG", Astro.url)
 		<Header />
 		<main class="px-5 py-16">
 			<article
-				class="prose mx-auto md:prose-lg lg:prose-xl prose-invert max-w-screen-lg prose-a:text-secondary prose-blockquote:border-l-primary prose-blockquote:bg-muted prose-blockquote:py-[1px] prose-code:text-primary prose-code:font-normal prose-img:rounded-sm"
+				class="prose mx-auto md:prose-lg lg:prose-xl prose-invert max-w-screen-lg prose-a:text-secondary prose-blockquote:border-l-primary prose-blockquote:bg-muted prose-blockquote:py-[1px] prose-blockquote:pr-5 prose-code:text-primary prose-code:font-normal prose-img:rounded-sm"
 			>
 				<slot />
 			</article>
