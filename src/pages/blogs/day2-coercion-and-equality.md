@@ -28,7 +28,9 @@ Here, JavaScript has **_coerced_** `1` to a string and performed **_concatenatio
 ## Abstract operations
 
 Have you ever wondered how coercion works internally ? **Abstract operations** are the fundamental building blocks that makes up how we deal with **type coercion**. These operations are not a part of JavaScript, but are defined to aid the specification of the semantics of the language. The abstract operations perform the tasks of **_type conversion_.** They are conceptual operations.
-<br>
+
+## Some abstract operations
+
 Here we will look into four abstract operations, **toPrimitive**, **toString**, **toNumber** and **toBoolean**.
 
 -   **ToPrimitive**
