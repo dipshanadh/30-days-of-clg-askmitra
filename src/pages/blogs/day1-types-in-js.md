@@ -50,7 +50,7 @@ For example: When we do `let num = 1` and we try to access `num.valueOf()`, the 
 
 **Object**: Object is a collection of properties. All JavaScript values, except primitives, are objects. Objects are written as `key: value` pairs. A **method** is an object property containing a function definiton.
 
-**Function**: Function in JavaScript is an object with additional capability of being _callable_. Functions are reusable bits of code, which can be used again and again.
+**Function**: Function in JavaScript is an object with additional capability of being **_callable_**. Functions are reusable bits of code, which can be used again and again.
 
 **Array**: An array is a special variable, which can hold more than one similar values:
 
