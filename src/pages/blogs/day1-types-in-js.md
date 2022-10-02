@@ -4,7 +4,7 @@ title: Day 1 - Types in JavaScript
 description: This is the first day of 30 Days of CLG Askmitra. Today, I am going to dive into JavaScript types, the typeof operator and BigInt.
 ---
 
-# Types in JavaScript
+# Day 1 - Types in JavaScript
 
 This is the first day of 30 Days of CLG Askmitra. Today, I am going to dive into **JavaScript types**, the **typeof** operator and **BigInt**.
 
