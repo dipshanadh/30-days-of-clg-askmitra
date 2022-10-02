@@ -17,7 +17,7 @@ I can write code in JavaScript, but I don't know what happens under the hood. I 
 
 This website is built with [Astro](https://astro.build/) and [tailwindCSS](https://tailwindcss.com/). I am also using `@tailwindcss/typography` plugin.
 
-## Links to some of the resources I used:
+## Links to some of the resources I am using:
 
 -   [Deep JavaScript Foundations](https://frontendmasters.com/courses/deep-javascript-v3/)
 -   [JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/)

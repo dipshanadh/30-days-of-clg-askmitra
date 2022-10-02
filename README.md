@@ -15,7 +15,7 @@ Hi, I am Dipshan & I have decided to start 30 Days of CLG Askmitra to deep dive 
 
 Note : If an individual takes more than three days off without good reason, s/he will be removed from the CLG program.
 
-## Links to some of the resources I used:
+## Links to some of the resources I am using:
 
 -   [Deep JavaScript Foundations](https://frontendmasters.com/courses/deep-javascript-v3/)
 -   [JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/)
