@@ -22,7 +22,7 @@ The comparision `x == y` is performed as follows:
 
 1. If the either sides are **null** and **undefined**, it will return true.
 
-    **Example**
+    **Example**:
 
     ```js
     null == undefined //=> true
