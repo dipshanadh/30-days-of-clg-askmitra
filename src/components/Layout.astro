@@ -6,8 +6,7 @@ const { frontmatter } = Astro.props
 let { title, description } = frontmatter || Astro.props
 title += " | 30 days of CLG Askmitra | Dipshan Adhikari"
 
-const url = "https://clg.dipshanadhikari.com.np",
-	socialImageURL = new URL("/images/preview.PNG", url)
+const socialImageURL = "https://clg.dipshanadhikari.com.np/images/preview.PNG"
 ---
 
 <!DOCTYPE html>
@@ -26,7 +25,6 @@ const url = "https://clg.dipshanadhikari.com.np",
 		<!-- Open Graph -->
 		<meta property="og:type" content="article" />
 		<meta property="og:title" content={title} />
-		<meta property="og:url" content={url} />
 		<meta property="og:image" content={socialImageURL} />
 
 		<!-- Twitter summary card -->
