@@ -1,12 +1,12 @@
 ---
 layout: ../../components/Layout.astro
 title: Day 3 - Equality in JavaScript
-description: This is the third day of 30 Days of CLG Askmitra.Yesterday, I learned about type coercion and abstract operations. Today, I wil be learning about Equality in JavaScript and dig into how Double Equals works internally and also see some examples.
+description: This is the third day of 30 Days of CLG Askmitra. Yesterday, I learned about type coercion and abstract operations. Today, I wil be learning about Equality in JavaScript and dig into how Double Equals works internally and also see some examples.
 ---
 
 # Day 3 - Equality in JavaScript
 
-This is the third day of 30 Days of CLG Askmitra.Yesterday, I learned about type coercion and abstract operations. Today, I wil be learning about Equality in JavaScript and dig into how Double Equals works internally and also see some examples.
+This is the third day of 30 Days of CLG Askmitra. Yesterday, I learned about type coercion and abstract operations. Today, I wil be learning about Equality in JavaScript and dig into how Double Equals works internally and also see some examples.
 
 ## Double & triple equals
 
@@ -72,4 +72,4 @@ The comparision `x == y` is performed as follows:
     false
     ```
 
-This much for today guys. Thankyou for reading. Tomorrow, we will look about Strict Equality Comparison. We will look more about Abstract Equaltiy Comparisions and deal with the weirdness of JavaScript. Good day !
+This much for today guys. Thankyou for reading. Tomorrow, we will look about **Strict Equality Comparison**. We will look more about **Abstract Equaltiy Comparision** and deal more with the weirdness of JavaScript. Good day !
