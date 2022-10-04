@@ -64,7 +64,7 @@ The comparison `x == y` is performed as follows:
     "0" == [] //=> false
     ```
 
-    Since "0" is a string and `[]` is an object (yes you heard is right! Arrays are objects in JavaScript ), as mentioned above, it tries doing `toPrimitve([])` with the hint **"string"**. Now the `toPrimitive([])` will do `toString([])` as the hint is **"string"**. Now, it will return an empty string **""**.
+    Since "0" is a string and `[]` is an object (yes you heard is right! Arrays are objects in JavaScript ), as mentioned above, it tries doing `toPrimitve([])` with the hint **"string"**. Now the `toPrimitive([])` will do `toString([])` since the hint is **"string"**. Now, it will return an empty string **""**.
 
     ```js
     "0" == []
