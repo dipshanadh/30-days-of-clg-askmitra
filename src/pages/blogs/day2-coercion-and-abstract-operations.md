@@ -1,12 +1,12 @@
 ---
 layout: ../../components/Layout.astro
 title: Day 2 - Coercion and Abstract Operations
-description: This is the second day of 30 Days of CLG Askmitra. Yesterday, I had talked about types and a little bit about coercion. Today, I am going to dive into type coercion and abstract operations.
+description: This is the second day of 30 Days of CLG Askmitra. Yesterday, I talked about types and a little bit about coercion. Today, I am going to dive into type coercion and abstract operations.
 ---
 
 # Day 2 - Coercion and Abstract Operations
 
-This is the second day of 30 Days of CLG Askmitra. Yesterday, I had talked about **types** and a little bit about **coercion**. Today, I am going to dive into **type coercion** and **abstract operations**.
+This is the second day of 30 Days of CLG Askmitra. Yesterday, I talked about **types** and a little bit about **coercion**. Today, I am going to dive into **type coercion** and **abstract operations**.
 
 ## Type coercion
 
@@ -23,11 +23,11 @@ const sum = v1 + v2
 console.log(sum) // "111"
 ```
 
-Here, JavaScript has **_coerced_** `1` to a string and performed **_concatenation_**, resuting in a string of `111`.
+Here, JavaScript has **_coerced_** `1` to a string and performed **_concatenation_**, resulting in a string of `111`.
 
 ## Abstract operations
 
-Have you ever wondered how coercion works internally ? **Abstract operations** are the fundamental building blocks that makes up how we deal with **type coercion**. These operations are not a part of JavaScript, but are defined to aid the specification of the semantics of the language. The abstract operations perform the tasks of **_type conversion_.** They are conceptual operations.
+Have you ever wondered how coercion works internally? **Abstract operations** are the fundamental building blocks that makeup how we deal with **type coercion**. These operations are not a part of JavaScript but are defined to aid the specification of the semantics of the language. The abstract operations perform the tasks of **_type conversion_.** They are conceptual operations.
 
 ## Some abstract operations
 
@@ -35,15 +35,15 @@ Here we will look into four abstract operations, **toPrimitive**, **toString**, 
 
 -   **ToPrimitive**
 
-    The abstract operation `toPrimitive()` converts a non-primitive (like function, object and array) to a primitve. It takes to arguement **_input_** and an optional arguement **_preferred type_** (string or number). Another thing to keep in mind is that `toPrimitve()` is a **recursive** operations, which means that if the result from `toPrimitive` is not a primitive, it is going to be evoked again until it can get a primitve, or in some cases gets an error.
+    The abstract operation `toPrimitive()` converts a non-primitive (like function, object and array) to a primitive. It takes to argument **_input_** and an optional arguement **_preferred type_** (string or number). Another thing to keep in mind is that `toPrimitve()` is a **recursive** operation, which means that if the result from `toPrimitive` is not a primitive, it is going to be evoked again until it can get a primitive, or in some cases gets an error.
 
-    The way it works is that there are two methods that are available on any non-primitive, the `valueOf()` and `toString()`. If the hint given is **"number"**, it will first try to invoke `valueOf()`. And if we get a **primitive type** from the result then we are done. If it doesn't get a primitive, then it will again try doing `toString()`. Now if we don't get a primitive even after trying both of those, generally thats gonna end up resulting an **error.** If the hint was string, the order is just reversed.
+    The way it works is that two methods are available on any non-primitive, the `valueOf()` and `toString()`. If the hint given is **"number"**, it will first try to invoke `valueOf()`. And if we get a **primitive type** from the result then we are done. If it doesn't get a primitive, then it will again try doing `toString()`. Now if we don't get a primitive even after trying both of those, generally that's gonna end up resulting in an **error.\*\*** If the hint was "string", the order is just reversed.
 
     > When `toPrimitive` is called without a hint, then it generally behaves as if the hint was number.
 
 -   **ToString**
 
-    The abstract operation `toString()` takes any value and gives us the representation of that value in **string form**. It converts argument to a value of type String according to [Table 15](https://tc39.es/ecma262/#table-tostring-conversions).
+    The abstract operation `toString()` takes any value and gives us the representation of that value in **string form**. It converts the argument to a value of type String according to [Table 15](https://tc39.es/ecma262/#table-tostring-conversions).
 
     | Value                               | Result            |
     | ----------------------------------- | ----------------- |
@@ -75,6 +75,6 @@ Here we will look into four abstract operations, **toPrimitive**, **toString**, 
 
 -   **ToBoolean**
 
-    Anytime you have a value that is not a **Boolean**, but is used in a place that needs a **Boolean**, this operation occures. It converts a value to **false** if it is `""` (empty string), 0, -0 (negative zero), null, `NaN`, false and undefined. In other cases, it will just return **true.**
+    Anytime you have a value that is not a **Boolean**, but is used in a place that needs a **Boolean**, this operation occurs. It converts a value to **false** if it is `""` (empty string), 0, -0 (negative zero), null, `NaN`, false and undefined. In other cases, it will just return **true.**
 
-This much for today guys. Thankyou for reading. We will look more about coercions (cases of coercions) and also see about boxing tomorrow. Good day !
+This much for today guys. Thank you for reading. We will look more at coercions (cases of coercions) and also see about boxing tomorrow. Good day!

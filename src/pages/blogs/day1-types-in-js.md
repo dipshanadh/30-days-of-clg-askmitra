@@ -10,17 +10,17 @@ This is the first day of 30 Days of CLG Askmitra. Today, I am going to dive into
 
 ## Dynamic and weak typing
 
-JavaScript is a **dynamically typed** language, which means that variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned value of other type.
+JavaScript is a **dynamically typed** language, which means that variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned a value of other types.
 
 > In JavaScript, variables don't have types, values do.
 
-JavaScript is also a **weakly typed** language meaning that a value of one type can be `coerced` into another type when an operatoin involves mismatched types.
+JavaScript is also a **weakly typed** language meaning that a value of one type can be `coerced` into another type when an operation involves mismatched types.
 
-Take a look at this meme !
+Take a look at this meme!
 
 ![JavaScript type coercion meme](/images/coercion-meme.png)
 
-So whats happening here is, while doing `"11" + 1`, 1 is **coerced** to a string, so that it can be concatenated with "11". Similarly while doing `"11" - 1`, "11" is **coerced** to a number, so that 1 can be subtracted from it.
+So what's happening here is, while doing `"11" + 1`, 1 is **coerced** to a string, so that it can be concatenated with "11". Similarly while doing `"11" - 1`, "11" is **coerced** to a number, so that 1 can be subtracted from it.
 
 ---
 
@@ -38,19 +38,19 @@ In JavaScript, a **primitive** is a data that is not an **object**. There are se
 
 > In JavaScript everything is an object
 
-This is a **wrong** misconception. The primitives are not objects ! And they don't have any methods too, but still behaves as if they do. When properties are accessed on primitives, JavaScript **_auto-boxes_** the value into a **wrapper object** and accesses the property on that object instead. Autoboxing is the idea of implicitly turning primitive into object when we are to access certain methods that primitives **“appear”** to have.
+This is a **wrong** misconception. The primitives are not objects! And they don't have any methods too, but still, behave as if they do. When properties are accessed on primitives, JavaScript **_auto-boxes_** the value into a **wrapper object** and accesses the property on that object instead. Autoboxing is the idea of implicitly turning primitives into objects when we are to access certain methods that primitives **“appear”** to have.
 
-For example: When we do `let num = 1` and we try to access `num.valueOf()`, the `num` gets autoboxed into a `Number` object and then it calls `Number.prototype.valueOf()` on that object. Likewise, when we call a method on a **"string"** primitive, the same thing happens. It gets autoboxed into a `String` object, which is attached with a lot of useful prototypical methods such as substring and concat.
+For example: When we do `let num = 1` and we try to access `num.valueOf()`, the `num` gets autoboxed into a `Number` object and then it calls `Number.prototype.valueOf()` on that object. Likewise, when we call a method on a **"string"** primitive, the same thing happens. It gets autoboxed into a `String` object, which is attached with a lot of useful prototypical methods such as substring and split.
 
-### Sub types
+### Subtypes
 
 -   Object
 -   Function
 -   Array
 
-**Object**: Object is a collection of properties. All JavaScript values, except primitives, are objects. Objects are written as `key: value` pairs. A **method** is an object property containing a function definiton.
+**Object**: Object is a collection of properties. All JavaScript values, except primitives, are objects. Objects are written as `key: value` pairs. A **method** is an object property containing a function definition.
 
-**Function**: Function in JavaScript is an object with additional capability of being **_callable_**. Functions are reusable bits of code, which can be used again and again.
+**Function**: Function in JavaScript is an object with the additional capability of being **_callable_**. Functions are reusable bits of code, which can be used again and again.
 
 **Array**: An array is a special variable, which can hold more than one similar values:
 
@@ -58,7 +58,7 @@ For example: When we do `let num = 1` and we try to access `num.valueOf()`, the 
 const cars = ["Saab", "Volvo", "BMW"]
 ```
 
-Arrays are also objects, with `index`, which is used to access the particular array element, and `length` property which represents the size of an array. The `index` starts from zero and ends to a number one less than the `length`
+Arrays are also objects, with an `index`, which is used to access the particular array element, and a `length` property which represents the size of an array. The `index` starts from zero and ends with a number one less than the `length`
 
 ---
 
@@ -86,7 +86,7 @@ v = Symbol()
 typeof v // "symbol
 ```
 
-Guess what ? The output given by the `typeof` operator is always `string`
+Guess what? The output given by the `typeof` operator is always a `string`
 
 Now, let's look at some weirdness of JavaScript
 
