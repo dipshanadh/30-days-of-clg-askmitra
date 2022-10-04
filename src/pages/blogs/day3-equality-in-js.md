@@ -72,8 +72,4 @@ The comparison `x == y` is performed as follows:
     false
     ```
 
-<<<<<<< HEAD
-This much for today guys. Thank you for reading. Tomorrow, we will look at Strict Equality Comparison. We will look more at Abstract Equality Comparison and deal with the weirdness of JavaScript. Good day!
-=======
-This much for today guys. Thankyou for reading. Tomorrow, we will look about **Strict Equality Comparison**. We will look more about **Abstract Equaltiy Comparision** and deal more with the weirdness of JavaScript. Good day !
->>>>>>> bfdd0b00f264a9ac1cdb805bdb8f0aed93af26a7
+This much for today guys. Thank you for reading. Tomorrow, we will look at **Strict Equality Comparison**. We will look more at **Abstract Equality Comparison** and deal with the weirdness of JavaScript. Good day!
