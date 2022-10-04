@@ -1,0 +1,9 @@
+{
+	"grammarly.selectors": [
+		{
+			"language": "markdown",
+			"scheme": "file",
+			"pattern": "src/pages/blogs/day4-double-equals-corner-cases-and-abstract-equality-comparison.md"
+		}
+	]
+}
