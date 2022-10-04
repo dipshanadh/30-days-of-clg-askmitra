@@ -29,7 +29,7 @@ The comparison `x == y` is performed as follows:
     undefined == null //=> true
     ```
 
-2. If "x" is a number and "y" is a string, the `toNumber()` abstract operation will be performed on "y" and the result of the comparison will be returned. The same will happen to "y" if it is a string and "x" is a number.
+2. If "x" is a number and "y" is a string, the `toNumber(y)` abstract operation will be performed on "y" and the result of the comparison will be returned. The same will happen to "y" if it is a string and "x" is a number.
 
     **Example**:
 
@@ -39,7 +39,7 @@ The comparison `x == y` is performed as follows:
 
     Here, string "0" is converted to 0, and ultimately the result becomes **true.**
 
-3. If "x" is a boolean, again `toNumber()` abstract operation will be performed on it and the result of comparision will be returned. The same will happen to "y" if it is a boolean.
+3. If "x" is a boolean, again `toNumber(x)` abstract operation will be performed and the result of comparision will be returned. The same will happen to "y" if it is a boolean.
 
     **Example**:
 
@@ -47,7 +47,7 @@ The comparison `x == y` is performed as follows:
     3 > 2 > 1 //=> false
     ```
 
-    In this comparison, first `3 > 2` is run which gives us **"true"**, so it becomes, `true > 1`. Now when we are using Relational Comparision, the `toNumber()` abstract operation is invoked which here, converts **true to 1**. Ultimately the result becomes **false** since 1 is not less than 1.
+    In this comparison, first `3 > 2` is run which gives us **"true"**, so it becomes, `true > 1`. Now when we are using Relational Comparision, the `toNumber(true)` abstract operation is invoked which here, converts **true to 1**. Ultimately the result becomes **false** since 1 is not less than 1.
 
     ```js
     3 > 2 > 1
@@ -56,7 +56,7 @@ The comparison `x == y` is performed as follows:
     false
     ```
 
-4. If "x" is either string, number, or symbol and "y" is an object, the `toPrmitive()` abstract operation is invoked on "y" and the result of the comparison is returned. Same will happen to "x" if it is an object and "y" is a string, number, or symbol.
+4. If "x" is either string, number, or symbol and "y" is an object, the `toPrmitive(y)` abstract operation is invoked and the result of the comparison is returned. Same will happen to "x" if it is an object and "y" is a string, number, or symbol.
 
     **Example**:
 
