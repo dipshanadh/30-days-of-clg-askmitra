@@ -79,4 +79,4 @@ Today, I am going to explain to you what's going on here.
 
     3. So it becomes `"0" == ""`. Since the types are now the same, JavaScript will not do further **type conversion**. And the two strings are not the same, so this will become **false**.
 
-I hope it helped. Thank you for reading. Tomorrow, we will look at **Boxing** in JavaScript. Good day!
+I hope it helped. Thank you for reading. Tomorrow, we will look at **Scope** in JavaScript. Good day!
