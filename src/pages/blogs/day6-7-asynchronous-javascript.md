@@ -58,14 +58,14 @@ There is a **global execution context** as well as a **function execution contex
 
 There are two phases that happen when an execution context is created:
 
-1. Memory Creation Phase
+1. **Memory Creation Phase**
 
 -   Creates the global object ( browser => `window`, node.js => `global`)
 -   Creates the `this` object and binds it to the global object
 -   Setup **memory heap** for storing variables and function references
 -   Stores functions and variables in the global execution object and sets the variable to `undefined`
 
-2. Execution Phase
+2. **Execution Phase**
 
 -   Execute code line by line
 -   Create a new execution context for each function call
