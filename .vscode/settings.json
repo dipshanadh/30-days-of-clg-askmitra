@@ -9,6 +9,11 @@
 			"language": "markdown",
 			"scheme": "file",
 			"pattern": "src/pages/blogs/day5-scope.md"
+		},
+		{
+			"language": "markdown",
+			"scheme": "file",
+			"pattern": "src/pages/blogs/day6-7-asynchronous-javascript.md"
 		}
 	]
 }
