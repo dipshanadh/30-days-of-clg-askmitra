@@ -14,7 +14,7 @@ JavaScript is a single-threaded programming language meaning that only one thing
 
 The **call stack** is the stack of functions to be executed. It is used to manage and store all the **execution context** created during the code execution. The bottom of the call stack is always the **Global Execution Context** and then we have our functions stacked on top of it.
 
-JavaScript has a **single call **stack\*\* because it's a single-threaded language.
+JavaScript has a **single call stack** because it's a single-threaded language.
 
 > The call stack has a LIFO ( Last In, First Out ) structure which means that the last thing in is always the first thing out.
 
