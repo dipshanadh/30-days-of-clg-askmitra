@@ -1,6 +1,6 @@
 # 30 Days of CLG Askmitra
 
-Hi, I am Dipshan & I have decided to start 30 Days of CLG Askmitra to deep dive into JavaScript and gain an understanding of scope, callbacks, higher-order functions, closure, thread & call stack, execution context, task queue, asynchronous and object-oriented JavaScript!
+Hi, I am Dipshan & I have decided to start 30 Days of CLG Askmitra to deep dive into JavaScript and go under the hood of some of the most important aspects of JavaScript!
 
 ## What is CLG ?
 
@@ -21,6 +21,10 @@ Note : If an individual takes more than three days off without good reason, s/he
 -   [JavaScript: The Hard Parts](https://frontendmasters.com/courses/javascript-hard-parts-v2/)
 -   [JavaScript: Under The Hood](https://www.youtube.com/playlist?list=PLillGF-Rfqbars4vKNtpcWVDUpVOVTlgB)
 -   [You Don't Know JS Yet](https://github.com/getify/You-Dont-Know-JS)
+
+## About the site
+
+This [website](https://clg.dipshanadhikari.com.np/) is built with [Astro](https://astro.build/) and [tailwindCSS](https://tailwindcss.com/). I am also using `@tailwindcss/typography` plugin.
 
 If you’re interested start here: https://clg.askmitra.com
 
