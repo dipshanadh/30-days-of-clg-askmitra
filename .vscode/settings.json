@@ -14,6 +14,10 @@
 			"language": "markdown",
 			"scheme": "file",
 			"pattern": "src/pages/blogs/day6-7-asynchronous-javascript.md"
+		},
+		{
+			"language": "markdown",
+			"scheme": "file"
 		}
 	]
 }

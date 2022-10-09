@@ -1,12 +1,12 @@
 ---
 layout: ../../components/Layout.astro
 title: Day 5 -  Scope in JavaScript
-description: This is the fourth day of 30 Days of CLG Askmitra. Today, I am going to learn about scope in JavaScript so that I can understand Closure and Modular pattern.
+description: This is the fifth day of 30 Days of CLG Askmitra. Today, I am going to learn about scope in JavaScript so that I can understand Closure and Modular pattern.
 ---
 
 # Day 5 - Scope in JavaScript
 
-This is the fourth day of 30 Days of CLG Askmitra. Today, I am going to learn about **Scope** in JavaScript so that I can understand Closure and Modular pattern.
+This is the fifth day of 30 Days of CLG Askmitra. Today, I am going to learn about **Scope** in JavaScript so that I can understand Closure and Modular pattern.
 
 ## Scope
 

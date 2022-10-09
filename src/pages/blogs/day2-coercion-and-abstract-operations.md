@@ -77,4 +77,4 @@ Here we will look into four abstract operations, **toPrimitive**, **toString**, 
 
     Anytime you have a value that is not a **Boolean**, but is used in a place that needs a **Boolean**, this operation occurs. It converts a value to **false** if it is `""` (empty string), 0, -0 (negative zero), null, `NaN`, false and undefined. In other cases, it will just return **true.**
 
-This much for today guys. Thank you for reading. We will look more at coercions (cases of coercions) and also see about boxing tomorrow. Good day!
+This much for today guys. Thank you for reading. We will look more at **coercions (cases of coercions)** and see about **equality in JavaScript** tomorrow. Good day!

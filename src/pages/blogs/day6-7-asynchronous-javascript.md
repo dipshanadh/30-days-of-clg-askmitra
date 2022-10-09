@@ -1,18 +1,18 @@
 ---
 layout: ../../components/Layout.astro
 title: Day 6 and Day 7 - Understanding Asynchronous JavaScript
-description: This is the fourth day of 30 Days of CLG Askmitra. Today, I am going to learn about Asynchronous JavaScript.
+description: This is the seventh day of 30 Days of CLG Askmitra. Today, I am going to learn about Asynchronous JavaScript.
 ---
 
 # Day 6 and Day 7 - Understanding Asynchronous JavaScript
 
-This is the fourth day of 30 Days of CLG Askmitra. Today, I am going to learn about **Asynchronous JavaScript**.
+This is the seventh day of 30 Days of CLG Askmitra. Today, I am going to learn about **Asynchronous JavaScript**.
 
 ## Thread & Call Stack
 
 JavaScript is a single-threaded programming language meaning that only one thing can happen at a time. It is a **synchronous** language with **asynchronous capabilities**. Using asynchronous JavaScript (such as callbacks, promises, and async/await), you can perform long network requests without blocking the main thread.
 
-The **call stack** is the stack of functions to be executed. It is used to manage and store all the **execution context** created during the code execution. The bottom of the call stack is always the **Global Execution Context** and then we have our functions stacked on top of it.
+The **call stack** is responsible for keeping track of all the operations in line to be executed. It is used to store and manage the **execution context** created during the code execution. The bottom of the call stack is always the **Global Execution Context** and then we have our functions stacked on top of it.
 
 JavaScript has a **single call stack** because it's a single-threaded language.
 
