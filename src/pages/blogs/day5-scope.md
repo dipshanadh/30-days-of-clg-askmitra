@@ -8,8 +8,6 @@ description: This is the fifth day of 30 Days of CLG Askmitra. Today, I am going
 
 This is the fifth day of 30 Days of CLG Askmitra. Today, I am going to learn about **Scope** in JavaScript so that I can understand Closure and Modular pattern.
 
-## Scope
-
 Scope in JavaScript refers to the current context of code, which determines the excessibility of variables to JavaScript. The two types of scope are:
 
 -   **Local scope** are those which are declared inside of a function or block.

@@ -18,3 +18,6 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# ignoring test.js file
+src/pages/blogs/test.js
