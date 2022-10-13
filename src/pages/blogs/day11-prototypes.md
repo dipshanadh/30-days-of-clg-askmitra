@@ -69,4 +69,4 @@ In the above code, inside `Student` constructor:
 
 3. I am also reassigning the constructor because step 2 will set the constructor of the instance of `Student` object to `Person` constructor.
 
-Creating many levels of inheritance hierarchies makes the code complex. They are very fragile. With composition, instead of having a complex hierarchy, we can compose a few objects together to create a new object. In JavaScript, we can use mixins to achieve composition. and thats what I am going to see tomorrow.
+Creating many levels of inheritance hierarchies makes the code complex. They are very fragile. With composition, instead of having a complex hierarchy, we can compose a few objects together to create a new object. In JavaScript, we can use **mixins** to achieve composition. and thats what I am going to see tomorrow.
