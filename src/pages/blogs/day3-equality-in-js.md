@@ -2,6 +2,7 @@
 layout: ../../components/Layout.astro
 title: Day 3 - Equality in JavaScript
 description: This is the third day of 30 Days of CLG Askmitra. Yesterday, I learned about type coercion and abstract operations. Today, I wil be learning about Equality in JavaScript and dig into how Double Equals works internally and also see some examples.
+date: 2022-10-03
 ---
 
 # Day 3 - Equality in JavaScript

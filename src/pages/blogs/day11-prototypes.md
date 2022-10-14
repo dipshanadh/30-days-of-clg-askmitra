@@ -2,6 +2,7 @@
 layout: ../../components/Layout.astro
 title: Day 11 - Prototypes and Prototypical Inheritance
 description: This is my eleventh day of 30 Days of CLG Askmitra. Yesterday, I learned about factory functions, constructor functions, and getters and setters. Today, I am going to learn about prototypes and prototypical inheritance.
+date: 2022-10-11
 ---
 
 # Day 11 - Prototypes and Prototypical Inheritance

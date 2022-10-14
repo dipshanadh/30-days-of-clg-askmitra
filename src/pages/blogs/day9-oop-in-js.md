@@ -2,6 +2,7 @@
 layout: ../../components/Layout.astro
 title: Day 9 - Object Oriented Programming in JavaScript
 description: This is the ninth day of 30 Days of CLG Askmitra. From today, I am going to learn about Object Oriented Programming in JavaScript.
+date: 2022-10-09
 ---
 
 # Day 9 - Object Oriented Programming in JavaScript

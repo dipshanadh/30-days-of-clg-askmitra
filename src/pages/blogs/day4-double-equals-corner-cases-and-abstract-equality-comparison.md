@@ -2,6 +2,7 @@
 layout: ../../components/Layout.astro
 title: Day 4 -  Double Equals Corner Cases and Abstract Equality Comparison
 description: This is the fourth day of 30 Days of CLG Askmitra. Yesterday, I dug into how Double Equals works and also saw some examples. Today, I will look at more weird examples of Double Equals and see how triple equal works.
+date: 2022-10-04
 ---
 
 # Day 4 - Double Equals Corner Cases and Abstract Equality Comparison

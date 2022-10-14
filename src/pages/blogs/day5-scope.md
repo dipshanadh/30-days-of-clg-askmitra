@@ -2,13 +2,14 @@
 layout: ../../components/Layout.astro
 title: Day 5 -  Scope in JavaScript
 description: This is the fifth day of 30 Days of CLG Askmitra. Today, I am going to learn about scope in JavaScript so that I can understand Closure and Modular pattern.
+date: 2022-10-06
 ---
 
 # Day 5 - Scope in JavaScript
 
 This is the fifth day of 30 Days of CLG Askmitra. Today, I am going to learn about **Scope** in JavaScript so that I can understand Closure and Modular pattern.
 
-Scope in JavaScript refers to the current context of code, which determines the excessibility of variables to JavaScript. The two types of scope are:
+Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript. The two types of scope are:
 
 -   **Local scope** are those which are declared inside of a function or block.
 -   **Global scope** are those which are declared globally.

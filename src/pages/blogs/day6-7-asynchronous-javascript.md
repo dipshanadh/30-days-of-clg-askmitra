@@ -2,6 +2,7 @@
 layout: ../../components/Layout.astro
 title: Day 6 and Day 7 - Understanding Asynchronous JavaScript
 description: This is the seventh day of 30 Days of CLG Askmitra. Today, I am going to learn about Asynchronous JavaScript.
+date: 2022-10-07
 ---
 
 # Day 6 and Day 7 - Understanding Asynchronous JavaScript

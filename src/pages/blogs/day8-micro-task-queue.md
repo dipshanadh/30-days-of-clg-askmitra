@@ -2,6 +2,7 @@
 layout: ../../components/Layout.astro
 title: Day 8 - ES6 Micro-Task queue & Memory Management
 description: This is the eighth day of 30 Days of CLG Askmitra. Yesterday, I learned about concepts such as call stack, event loop and task queue which together make the JavaScript runtime environment. Today, I am going to learn about **ES6 Micro-Task queue and Memory Management**.
+date: 2022-10-08
 ---
 
 # Day 8 - ES6 Micro-Task queue & Memory Management

@@ -2,6 +2,7 @@
 layout: ../../components/Layout.astro
 title: Day 10
 description: This is my tenth day of 30 Days of CLG Askmitra. Yesterday, I learned about concepts like encapsulation, abstraction, inheritance and polymorphism. Today, I am going to learn about factory functions, constructor functions, and getters and setters.
+date: 2022-10-10
 ---
 
 # Day 10

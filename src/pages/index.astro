@@ -2,6 +2,9 @@
 import Layout from "../components/Layout.astro"
 
 const posts = await Astro.glob("./blogs/*.md")
+const sortedPosts = posts.sort(
+	(a, b) => Date.parse(a.frontmatter.date) - Date.parse(b.frontmatter.date)
+)
 ---
 
 <Layout
@@ -20,7 +23,7 @@ const posts = await Astro.glob("./blogs/*.md")
 
 	<ol>
 		{
-			posts.map(post => (
+			sortedPosts.map(post => (
 				<li>
 					<h3 class="not-prose">
 						<a
